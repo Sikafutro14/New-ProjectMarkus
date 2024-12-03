@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return " just created my own web page"
+    return " just created my own web page "
 
 
-if __name__ == "__main_-":
+if __name__ == "__main__":
     app.run(debug=True)    
